@@ -1,10 +1,10 @@
 // Update these!
 
-export const COMPANY_HOME_URL = 'https://gpufleet.com';
-export const ABOUT_URL = 'https://strategicinfra.com/';
-export const CUSTOM_REQUESTS_URL = 'https://gpufleet.com';
-export const INFRASTRUCTURE_URL = 'https://strategicinfra.com/';
+export const COMPANY_HOME_URL = 'https://clutchsolutions.com/';
+export const ABOUT_URL = 'https://clutchsolutions.com/';
+export const CUSTOM_REQUESTS_URL = 'https://clutchsolutions.com/';
+export const INFRASTRUCTURE_URL = 'https://clutchsolutions.com/';
 
-export const CONTACT_EMAIL = 'hello@gpufleet.com';
-export const SALES_EMAIL = 'sales@gpufleet.com';
-export const SUPPORT_EMAIL = 'support@gpufleet.com';
+export const CONTACT_EMAIL = 'hello@clutchsolutions.com';
+export const SALES_EMAIL = 'sales@clutchsolutions.com';
+export const SUPPORT_EMAIL = 'support@clutchsolutions.com';

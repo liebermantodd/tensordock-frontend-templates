@@ -1,17 +1,17 @@
 // Swap out these images for your own branding!
 import BGImage from '../assets/img/bg.jpg';
-import LogoImage from '../assets/img/logo.svg';
-import HomeLogoImage from '../assets/img/logo-home.svg';
+import LogoImage from '../assets/img/clutch_logo.png';
+import HomeLogoImage from '../assets/img/clutch_logo.png';
 
 // Page title for homepage
 export const SPLASH_TITLE = `Affordable, Scalable GPUs`;
 
-export const COMPANY_NAME = 'GPUfleet.com';
-export const SHORT_COMPANY_NAME = 'GPUfleet';
+export const COMPANY_NAME = 'Clutch Solutions';
+export const SHORT_COMPANY_NAME = 'Clutch';
 
 // Switch this to `true` to use an image as your logo
 export const USE_LOGO_IMAGE = true;
-export const LOGO_TEXT = 'GPUfleet';
+export const LOGO_TEXT = 'Clutch Solutions';
 export const LOGO_IMAGE = LogoImage;
 export const HOME_LOGO_IMAGE = HomeLogoImage;
 

@@ -1,7 +1,7 @@
 import type { DeployValues } from '../util/api/deploy';
 
 export const DEFAULT_DEPLOY_SPECS = {
-  gpu_model: 'geforcertx4090-pcie-24gb',
+  gpu_model: 'rtxa6000-pcie-48gb',
   gpu_count: 1,
   ram: 4,
   vcpu: 2,
@@ -10,14 +10,9 @@ export const DEFAULT_DEPLOY_SPECS = {
 
 // Update this list to match the GPUs you want to rent out.
 export const ALLOWED_GPUS: GpuModel[] = [
-  'h100-sxm5-80gb',
-  'a100-pcie-80gb',
-  'a100-pcie-40gb',
-  'a100-nvlink-40gb',
-  'geforcertx4090-pcie-24gb',
+  'rtxa6000-pcie-48gb',
+  'rtxa4000-pcie-16gb',
   'geforcertx3090-pcie-24gb',
-  'geforcertx3070ti-pcie-8gb',
-  'geforcertx3060-pcie-12gb',
 ];
 
 export const SINGLE_LOCATION = false;
