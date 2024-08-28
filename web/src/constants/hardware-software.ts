@@ -1,23 +1,20 @@
 import type { DeployValues } from '../util/api/deploy';
 
 export const DEFAULT_DEPLOY_SPECS = {
-  gpu_model: 'geforcertx4090-pcie-24gb',
+  gpu_model: 'rtxa6000-pcie-48gb',
   gpu_count: 1,
-  ram: 4,
-  vcpu: 2,
-  storage: 20,
+  ram: 32,
+  vcpu: 6,
+  storage: 200,
 } satisfies Partial<DeployValues['specs']>;
 
 // Update this list to match the GPUs you want to rent out.
 export const ALLOWED_GPUS: GpuModel[] = [
-  'h100-sxm5-80gb',
   'a100-pcie-80gb',
-  'a100-pcie-40gb',
-  'a100-nvlink-40gb',
-  'geforcertx4090-pcie-24gb',
+  'rtxa6000-pcie-48gb',
+  'quadrortx8000-pcie-48gb',
   'geforcertx3090-pcie-24gb',
-  'geforcertx3070ti-pcie-8gb',
-  'geforcertx3060-pcie-12gb',
+  'rtxa4000-pcie-16gb',
 ];
 
 export const SINGLE_LOCATION = false;
@@ -129,6 +126,10 @@ export const GPU_INFO = {
   'quadrortx4000-pcie-8gb': {
     displayName: 'Quadro RTX 4000 8GB',
     shortName: 'Quadro RTX 4000',
+  },
+  'quadrortx8000-pcie-48gb': {
+    displayName: 'Quadro RTX 8000 48GB',
+    shortName: 'RTX 8000',
   },
   'quadrortx5000-pcie-16gb': {
     displayName: 'Quadro RTX 5000 16GB',

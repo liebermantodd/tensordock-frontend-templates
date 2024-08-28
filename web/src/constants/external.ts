@@ -1,10 +1,10 @@
 // Update these!
 
-export const COMPANY_HOME_URL = 'https://gpufleet.com';
-export const ABOUT_URL = 'https://strategicinfra.com/';
-export const CUSTOM_REQUESTS_URL = 'https://gpufleet.com';
-export const INFRASTRUCTURE_URL = 'https://strategicinfra.com/';
+export const COMPANY_HOME_URL = '#';
+export const ABOUT_URL = '#';
+export const CUSTOM_REQUESTS_URL = '#';
+export const INFRASTRUCTURE_URL = '#';
 
-export const CONTACT_EMAIL = 'hello@gpufleet.com';
-export const SALES_EMAIL = 'sales@gpufleet.com';
-export const SUPPORT_EMAIL = 'support@gpufleet.com';
+export const CONTACT_EMAIL = 'hello@bluelobster.ai';
+export const SALES_EMAIL = 'sales@bluelobster.ai';
+export const SUPPORT_EMAIL = 'support@bluelobster.ai';

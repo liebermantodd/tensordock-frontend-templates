@@ -1,3 +1,9 @@
+const LOCATION_METADATA = {
+  Philadelphia: { network: "1g", tier: "Tier 0" },
+  Wilmington: { network: "10g", tier: "Tier 3" },
+  // Add other locations as needed
+};
+
 import { zodResolver } from '@hookform/resolvers/zod';
 import { AnimatePresence, m } from 'framer-motion';
 import { useCallback, useEffect, useMemo, useState } from 'react';
@@ -512,7 +518,7 @@ export default function DeployPage() {
     permissions: '0777'
     content: |
       Woohoo! This site is working!
-    owner: user:user 
+    owner: user:user
 runcmd:
   - docker run -d --restart unless-stopped --stop-timeout 300 -v /home/user/cloudinit_website:/usr/share/nginx/html:ro -p 80:80 --name default_container nginx`}
                     className="rounded-input px-2 py-1 text-sm font-mono ring-1 ring-gray-300 dark:bg-neutral-800 dark:ring-none dark:placeholder:text-neutral-500"

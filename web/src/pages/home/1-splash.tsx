@@ -17,7 +17,7 @@ import {
 import { ROUTES } from '../../constants/pages';
 import useAuth from '../../hooks/use-auth';
 
-import DeployImage from '../../assets/img/deploy.jpg';
+import DeployImage from '../../assets/img/deploy.png';
 
 const navLinks = [
   { text: 'Deploy', to: ROUTES.deployForm },
