@@ -2,6 +2,11 @@
 
 import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
+import LegalHome from './legal';
+import LegalPrivacy from './legal/privacy';
+import LegalTOS from './legal/tos';
+import LegalAUP from './legal/aup';
+import LegalDPA from './legal/dpa';
 
 import ChangePasswordPage from './auth/change-password';
 import AuthLayout from './auth/layout';
@@ -19,13 +24,35 @@ import NotFoundPage from './notfound';
 const SignupPage = React.lazy(() => import('./auth/signup'));
 const DepositFundsPage = React.lazy(() => import('./dash/account-deposit'));
 const DeployPage = React.lazy(() => import('./dash/deploy'));
+const AboutPage = React.lazy(() => import('./about'));
 const HomePage = React.lazy(() => import('./home'));
 
 const router = createBrowserRouter([
   { path: '*', element: <NotFoundPage /> },
+
+  {
+    path: '/about',
+    element: <AboutPage />,
+  },
   {
     path: '/',
     element: <HomePage />,
+  },
+  {
+    path: '/legal/privacy',
+    element: <LegalPrivacy />,
+  },
+  {
+    path: '/legal/tos',
+    element: <LegalTOS />,
+  },
+  {
+    path: '/legal/aup',
+    element: <LegalAUP />,
+  },
+  {
+    path: '/legal/dpa',
+    element: <LegalDPA />,
   },
   {
     element: <DashLayout />,
