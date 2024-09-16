@@ -25,7 +25,10 @@ const SignupPage = React.lazy(() => import('./auth/signup'));
 const DepositFundsPage = React.lazy(() => import('./dash/account-deposit'));
 const DeployPage = React.lazy(() => import('./dash/deploy'));
 const AboutPage = React.lazy(() => import('./about'));
+const DatacentersPage = React.lazy(() => import('./datacenters'));
 const HomePage = React.lazy(() => import('./home'));
+const BareMetalPage = React.lazy(() => import('./bare-metal'));
+const ContactUsPage = React.lazy(() => import('./contact-us'));
 
 const router = createBrowserRouter([
   { path: '*', element: <NotFoundPage /> },
@@ -33,6 +36,18 @@ const router = createBrowserRouter([
   {
     path: '/about',
     element: <AboutPage />,
+  },
+  {
+    path: '/contact-us',
+    element: <ContactUsPage />,
+  },
+  {
+    path: '/datacenters',
+    element: <DatacentersPage />,
+  },
+  {
+    path: '/bare-metal',
+    element: <BareMetalPage />,
   },
   {
     path: '/',

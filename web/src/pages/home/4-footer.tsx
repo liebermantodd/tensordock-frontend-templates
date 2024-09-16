@@ -33,17 +33,16 @@ export default function FooterSection() {
         <div className="px-4">
           <h5 className="text-white opacity-85 mb-3">Company</h5>
           <ul className="mt-4 text-white/40">
-            <li><Link to={ABOUT_URL} target="_blank" className="inline-block py-1 hover:text-white/80 hover:underline">About</Link></li>
-            <li><Link to={DATACENTER_URL} target="_blank" className="inline-block py-1 hover:text-white/80 hover:underline">Datacenter</Link></li>
+            <li><Link to={ABOUT_URL} className="inline-block py-1 hover:text-white/80 hover:underline">About</Link></li>
+            <li><Link to={DATACENTER_URL} className="inline-block py-1 hover:text-white/80 hover:underline">Datacenters</Link></li>
             <li><a href={`mailto:${CONTACT_EMAIL}`} className="inline-block py-1 hover:text-white/80 hover:underline">Contact</a></li>
           </ul>
         </div>
         <div className="px-4">
           <h5 className="text-white opacity-85 mb-3">Virtual Machines</h5>
           <ul className="mt-4 text-white/40">
-            <li><Link to={ROUTES.deployForm} className="inline-block py-1 hover:text-white/80 hover:underline">Deploy VM</Link></li>
-            <li><Link to={VM_MANAGEMENT_API_URL} target="_blank" className="inline-block py-1 hover:text-white/80 hover:underline">VM Management API</Link></li>
-            <li><Link to={WEB_PORTAL_URL} target="_blank" className="inline-block py-1 hover:text-white/80 hover:underline">Web Portal</Link></li>
+            <li><Link to={VM_MANAGEMENT_API_URL} target="_blank" className="inline-block py-1 hover:text-white/80 hover:underline">API</Link></li>
+            <li><Link to={WEB_PORTAL_URL} target="_blank" className="inline-block py-1 hover:text-white/80 hover:underline">Dashboad</Link></li>
           </ul>
         </div>
         <div className="px-4">

@@ -3,11 +3,13 @@ export const COMPANY_HOME_URL = 'https://bluelobster.ai';
 export const COMPANY_ADDRESS =  '1201 N.Market St, Suite 200';
 export const COMPANY_ADDRESS_2 = 'Wilmington, DE 19801';
 export const ABOUT_URL = 'https://bluelobster.ai/about';
+export const BARE_METAL_URL = 'https://bluelobster.ai/bare-metal';
 export const CUSTOM_REQUESTS_URL = 'https://bluelobster.ai/custom-requests';
+export const CONTACT_US_URL = 'https://bluelobster.ai/contact-us';
 export const INFRASTRUCTURE_URL = 'https://bluelobster.ai/infrastructure';
 
 // Datacenter and VM Management
-export const DATACENTER_URL = 'https://dastorllc.com/1201-north-market-street-wilmington-de/';
+export const DATACENTER_URL = 'https://bluelobster.ai/datacenters';
 export const VM_MANAGEMENT_API_URL = 'http://api.bluelobster.ai/docs';
 export const WEB_PORTAL_URL = 'https://bluelobster.ai/login';
 

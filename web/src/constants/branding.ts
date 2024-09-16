@@ -1,7 +1,7 @@
 // Swap out these images for your own branding!
 import BGImage from '../assets/img/bg.jpg';
-import LogoImage from '../assets/img/lobster_transparent.png';
-import HomeLogoImage from '../assets/img/lobster_transparent.png';
+import LogoImage from '../assets/img/bl_logo_gradient_claw_only.png';
+import HomeLogoImage from '../assets/img/bl_logo_gradient_claw_only.png';
 
 // Page title for homepage
 export const SPLASH_TITLE = `Affordable, Scalable GPUs`;
