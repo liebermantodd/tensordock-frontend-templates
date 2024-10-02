@@ -50,7 +50,7 @@ export default function FooterSection() {
           <ul className="mt-4 text-white/40">
             <li><Link to={FAST_WHISPER_URL} target="_blank" className="inline-block py-1 hover:text-white/80 hover:underline">Fast-Whisper</Link></li>
             <li><Link to={VLLM_URL} target="_blank" className="inline-block py-1 hover:text-white/80 hover:underline">vLLM</Link></li>
-            <li><Link to={LLAMA_CHAT_URL} target="_blank" className="inline-block py-1 hover:text-white/80 hover:underline">Ollama Web Chat</Link></li>
+            <li><Link to={LLAMA_CHAT_URL} target="_blank" className="inline-block py-1 hover:text-white/80 hover:underline">vLLM Web Chat</Link></li>
           </ul>
         </div>
       </div>
